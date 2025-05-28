@@ -1,0 +1,143 @@
+body {
+    background: #fafbfc;
+    color: #222;
+    font-family: 'Segoe UI', Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 420px;
+    margin: 40px auto;
+    background: #fff;
+    border-radius: 18px;
+    box-shadow: 0 4px 24px rgba(0,0,0,0.07);
+    padding: 32px 24px 24px 24px;
+    text-align: center;
+}
+
+.privacy-container {
+    max-width: 650px;
+    text-align: left;
+    padding: 36px 32px 32px 32px;
+}
+
+.privacy-container h1 {
+    font-size: 1.7rem;
+    margin-bottom: 8px;
+    text-align: center;
+}
+.privacy-container h2, .privacy-container h3 {
+    margin-top: 32px;
+    margin-bottom: 12px;
+    font-weight: 600;
+    color: #2e7dff;
+}
+.privacy-container h2 {
+    font-size: 1.15rem;
+}
+.privacy-container h3 {
+    font-size: 1.05rem;
+}
+.privacy-container p {
+    margin: 14px 0 16px 0;
+    line-height: 1.7;
+}
+.privacy-container ul {
+    margin: 12px 0 18px 22px;
+    padding-left: 14px;
+}
+.privacy-container li {
+    margin-bottom: 10px;
+    line-height: 1.6;
+    list-style-type: disc;
+}
+.privacy-container strong {
+    color: #222;
+}
+.privacy-container .date, .privacy-container .dev-contact {
+    font-size: 0.99rem;
+    color: #444;
+    margin-bottom: 4px;
+    text-align: left;
+}
+.privacy-container a {
+    color: #2e7dff;
+    text-decoration: none;
+    word-break: break-all;
+}
+.privacy-container a:hover {
+    text-decoration: underline;
+}
+.privacy-container .app-icon {
+    display: block;
+    margin: 0 auto 18px auto;
+}
+@media (max-width: 700px) {
+    .privacy-container {
+        max-width: 99vw;
+        padding: 16px 4vw 18px 4vw;
+    }
+}
+
+.app-icon {
+    width: 88px;
+    height: 88px;
+    border-radius: 18px;
+    margin-bottom: 18px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+}
+
+h1 {
+    font-size: 2.1rem;
+    margin: 0 0 8px 0;
+    letter-spacing: 0.5px;
+}
+
+h2 {
+    font-size: 1.1rem;
+    color: #6a6a6a;
+    font-weight: 400;
+    margin: 0 0 18px 0;
+}
+
+.description {
+    font-size: 1rem;
+    margin-bottom: 26px;
+    color: #333;
+}
+
+.developer-info {
+    font-size: 0.95rem;
+    color: #444;
+    margin-top: 18px;
+}
+
+.developer-info a {
+    color: #2e7dff;
+    text-decoration: none;
+}
+
+.developer-info a:hover {
+    text-decoration: underline;
+}
+
+@media (max-width: 600px) {
+    .container {
+        max-width: 98vw;
+        padding: 16px 4vw 18px 4vw;
+    }
+    .app-icon {
+        width: 64px;
+        height: 64px;
+    }
+    h1 {
+        font-size: 1.4rem;
+    }
+    h2 {
+        font-size: 1rem;
+    }
+    .description {
+        font-size: 0.97rem;
+    }
+}
